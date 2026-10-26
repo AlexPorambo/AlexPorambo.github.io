@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alex Porambo' Portfolio</title>
+
+    <meta
+        name="description"
+        content="Portfolio of Alex Porambo — Computer Science student interested in software development, AI, machine learning, data analytics, and networking."
+    >
+
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+    <!-- Decorative screen effects -->
+    <div class="noise"></div>
+    <div class="scanlines"></div>
+
+    <!-- =========================
+         SIDE NAVIGATION
+    ========================== -->
+    <nav id="mySidenav" class="sidenav">
+
+        <button class="closebtn" onclick="closeNav()" aria-label="Close navigation">
+            ×
+        </button>
+
+        <div class="nav-small-text">NAVIGATION</div>
+
+        <a href="index.html" class="nav-link red">
+            <span>01</span>
+            ABOUT
+        </a>
+
+        <a href="projects.html" class="nav-link green">
+            <span>02</span>
+            PROJECTS
+        </a>
+
+        <a href="contact.html" class="nav-link blue">
+            <span>03</span>
+            CONTACT
+        </a>
+
+        <div class="nav-footer">
+            <p>PORTFOLIO</p>
+        </div>
+
+    </nav>
+
+
+    <!-- =========================
+         MAIN PAGE
+    ========================== -->
+    <main id="main">
+
+        <!-- HEADER -->
+        <header class="topbar">
+
+            <a href="index.html" class="logo">
+                <span class="logo-ap">AP</span>
+            </a>
+
+            <div class="topbar-center">
+                COMPUTER SCIENCE & DATA ANALYTICS
+            </div>
+
+            <button class="menu-button" onclick="openNav()">
+                MENU <span>+</span>
+            </button>
+
+        </header>
+
+
+        <!-- =========================
+             HERO
+        ========================== -->
+        <section class="hero">
+
+            <div class="hero-copy">
+
+                <p class="eyebrow">
+                    COMPUTER SCIENCE & DATA ANALYTICS PORTFOLIO
+                </p>
+
+                <h1>
+                    <span>ALEX</span>
+                    <span>PORAMBO</span>
+                </h1>
+
+                <p class="hero-description">
+                    Computer Science student building practical software, exploring data, and creating interactive applications.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="projects.html" class="retro-button">
+                        VIEW PROJECTS
+                        <span>↗</span>
+                    </a>
+
+                    
+                    <a href="https://github.com/AlexPorambo" target="_blank" rel="noopener noreferrer" class="text-button">
+                        GITHUB ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 RETRO GRAPHIC
+            ========================== -->
+            <div class="hero-art" aria-hidden="true">
+
+                <div class="rainbow-lines">
+                    <div class="beam beam-red"></div>
+                    <div class="beam beam-orange"></div>
+                    <div class="beam beam-yellow"></div>
+                    <div class="beam beam-green"></div>
+                    <div class="beam beam-blue"></div>
+                    <div class="beam beam-purple"></div>
+                </div>
+
+                <div class="orb-wrapper">
+                    <div class="orb"></div>
+                    <div class="orb-shadow"></div>
+                </div>
+
+                <div class="output-lines">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <p class="graphic-code">
+                    ALEX PORAMBO
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- TECH STRIP -->
+        <section class="tech-strip">
+
+            <div class="strip-label">
+                CURRENT STACK
+            </div>
+
+            <div class="ticker">
+
+                <span>PYTHON</span>
+                <span class="dot red-dot"></span>
+
+                <span>JAVA</span>
+                <span class="dot orange-dot"></span>
+
+                <span>C++</span>
+                <span class="dot yellow-dot"></span>
+
+                <span>SQL</span>
+                <span class="dot green-dot"></span>
+
+                <span>MACHINE LEARNING</span>
+                <span class="dot blue-dot"></span>
+
+                <span>NETWORKING</span>
+                <span class="dot purple-dot"></span>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+        <section class="about-section">
+
+            <div class="section-number">
+                PROFILE
+            </div>
+
+            <div class="about-title">
+                <p>WHO IS</p>
+
+                <h2>
+                    ALEX
+                    <span>PORAMBO?</span>
+                </h2>
+
+                <div class="profile-image-wrapper">
+                    <img
+                        src="pictures/profile_pic2.jpg"
+                        alt="Alex Porambo"
+                        class="profile-image"
+                    >
+
+                    <span class="profile-label">
+                        ABOUT ME
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="about-content">
+
+                <p class="large-about">
+                    I'm a Computer Science student at DeSales University
+                    interested in the intersection of
+                    <span>software</span>,
+                    <span>artificial intelligence</span>,
+                    <span>data</span>, and
+                    <span>computer systems.</span>
+                </p>
+
+                <p>
+                    I enjoy taking ideas and figuring out how to turn them
+                    into working systems — whether that's a machine learning
+                    model, networked application, desktop program, database
+                    project, or interactive website.
+                </p>
+
+                <p>
+                    Outside of computing, I'm also an Eagle Scout, Congressional Award recipient, and collegiate cross country
+                    and track athlete.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FEATURED PROJECTS
+        ========================== -->
+        <section class="featured-section">
+
+            <div class="section-header">
+
+                <div>
+                    <p class="section-number">SELECTED WORK</p>
+                    <h2>FEATURED<br>PROJECTS</h2>
+                </div>
+
+                <a href="projects.html" class="view-all">
+                    VIEW ALL PROJECTS ↗
+                </a>
+
+            </div>
+
+
+            <div class="project-grid">
+<a href="projects.html#synesthesia" class="project-card synesthesia-card" aria-label="Read about SYNESTHESIA">
+<div class="project-top"><span>Personal Coding Project</span><span>01 / 03</span></div>
+<div class="project-visual new-project-visual"><div class="syn-art" aria-hidden="true"><i style="--w:180px;--h:105px;--hue:195;--rot:0deg;--dur:7s"></i><i style="--w:190px;--h:117px;--hue:217;--rot:31deg;--dur:8s"></i><i style="--w:200px;--h:129px;--hue:239;--rot:62deg;--dur:9s"></i><i style="--w:210px;--h:141px;--hue:261;--rot:93deg;--dur:10s"></i><i style="--w:220px;--h:153px;--hue:283;--rot:124deg;--dur:11s"></i><i style="--w:230px;--h:165px;--hue:305;--rot:155deg;--dur:12s"></i><i style="--w:240px;--h:177px;--hue:327;--rot:186deg;--dur:13s"></i><div class="syn-core"></div></div><span class="visual-caption">COLOR / MOTION / SOUND</span></div>
+
+<div class="project-info"><p>JAVASCRIPT / CANVAS / WEB AUDIO</p><h3>SYNESTHESIA</h3><span class="project-description">An interactive art studio with adjustable patterns, color palettes, and music-reactive visuals.</span></div><div class="project-arrow">↗</div></a>
+<a href="projects.html#nfl" class="project-card nfl-card" aria-label="Read about NFL FORECAST">
+<div class="project-top"><span>DATA ANALYTICS & ML</span><span>02 / 03</span></div>
+<div class="project-visual new-project-visual"><div class="nfl-art" aria-hidden="true"><svg class="nfl-path" viewBox="0 0 245 215"><path d="M10 170 L55 145 L85 160 L122 100 L163 113 L205 47 L235 26" stroke="#9ad9ee" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="205" cy="47" r="5" fill="#b5e8f6"/><circle cx="122" cy="100" r="4" fill="#b5e8f6"/></svg><div class="nfl-ball"></div></div><span class="visual-caption">MATCHUPS / PROBABILITIES</span></div>
+
+<div class="project-info"><p>PYTHON / SCIKIT-LEARN / STREAMLIT</p><h3>NFL FORECAST</h3><span class="project-description">Predict NFL matchups and explore playoff odds using historical statistics and season simulations.</span></div><div class="project-arrow">↗</div></a>
+<a href="projects.html#f1" class="project-card f1-card" aria-label="Read about F1 TELEMETRY">
+<div class="project-top"><span>DATA ENGINEERING</span><span>03 / 03</span></div>
+<div class="project-visual new-project-visual"><div class="f1-art" aria-hidden="true"><svg viewBox="0 0 290 235" fill="none"><path d="M32 194 C55 168 61 157 72 125 S114 83 132 110 S167 177 195 132 S221 46 259 32" stroke="#8ccbb0" stroke-width="4" stroke-linecap="round"/><path d="M30 205 C70 195 95 190 118 150 S167 95 194 105 S240 122 266 69" stroke="#77add1" stroke-width="2" stroke-dasharray="6 7"/><circle cx="195" cy="132" r="7" fill="#b6ead1"/><circle cx="195" cy="132" r="14" stroke="#b6ead1" opacity=".5"/><path d="M45 65 h80 M45 75 h48 M45 85 h65" stroke="#a6cfc0" opacity=".45" stroke-width="3"/></svg><span class="f1-speed">SPEED / THROTTLE / LAPS</span></div><span class="visual-caption">DRIVER TELEMETRY</span></div>
+
+<div class="project-info"><p>PYTHON / POSTGRESQL / TELEMETRY</p><h3>F1 TELEMETRY</h3><span class="project-description">Compare Formula 1 drivers using lap data, speed, throttle, and race telemetry.</span></div><div class="project-arrow">↗</div></a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             INTERESTS / SYSTEM
+        ========================== -->
+        <section class="system-section">
+
+            <div class="section-number">
+                INTERESTS
+            </div>
+
+            <div class="system-layout">
+
+                <div class="system-title">
+
+                    <p>CURRENT</p>
+                    <h2>AREAS OF<br>INTEREST</h2>
+
+                </div>
+
+                <div class="interest-list">
+
+                    <div class="interest-row">
+                        <span>01</span>
+                        <p>ARTIFICIAL AGENTS</p>
+                    </div>
+
+                    <div class="interest-row">
+                        <span>02</span>
+                        <p>SOFTWARE DEVELOPMENT</p>
+                    </div>
+
+                    <div class="interest-row">
+                        <span>03</span>
+                        <p>MACHINE LEARNING</p>
+                    </div>
+
+                    <div class="interest-row">
+                        <span>04</span>
+                        <p>DATA ANALYTICS</p>
+                    </div>
+
+                    <div class="interest-row">
+                        <span>05</span>
+                        <p>COMPUTER NETWORKING</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT CTA
+        ========================== -->
+        <section class="contact-banner">
+
+            <p>LET'S BUILD SOMETHING.</p>
+
+            <a href="contact.html">
+                GET IN TOUCH
+                <span>↗</span>
+            </a>
+
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer>
+
+            <div>
+                <strong>AP</strong>
+                <p>COMPUTER SCIENCE PORTFOLIO</p>
+            </div>
+
+            <div class="footer-right">
+                <p>DESIGNED + BUILT BY</p>
+                <strong>ALEX PORAMBO</strong>
+            </div>
+
+        </footer>
+
+    </main>
+
+    <script src="functions.js"></script>
+
+</body>
+</html>
